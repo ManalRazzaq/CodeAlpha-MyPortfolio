@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manal-Portfolio</title>
+     <!-- ICONS -->
+     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+   
+
+</head>
+
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Manal.</a></div>
+            <ul class="menu">
+                <li><a href="#home" class="menu-btn active">Home</a></li>
+                <li><a href="#about" class="menu-btn">About</a></li>
+                <li><a href="#skills" class="menu-btn">Skills</a></li>
+                <li><a href="#services" class="menu-btn">Services</a></li>
+                <li><a href="#projects" class="menu-btn">Project</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>              
+            </ul>
+            <label class="toggle">
+                <input type="checkbox" id="theme-toggle">
+                <i class="uil uil-sun"></i>
+              
+            </label>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Hello, This is Manal</div>
+                <div class="text-2">Manal Razzaq</div>
+                <div class="text-3">And I'm a <span class="typing">Web Developer</span></div>
+
+                <a href="#">Hire me
+                </a>
+                <a href="./Manal resume.pdf" target="_blank" download="Manal_resume.pdf">
+                    Download CV
+                    <i class="fa-solid fa-download"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="picture-side">
+            <img src="./images/about.jpeg" alt="">
+        </div>
+        <div class="content-side">
+            <h2>My intro</h2>
+            <h1>About Me</h1>
+            <p>
+                I am a web developer skilled in HTML, CSS, JavaScript, and Bootstrap, focused on creating responsive and visually appealing websites.
+            </p>
+            <ul>
+                <li>
+                    <span>Name:</span>
+                    <span>Manal Razzaq</span>
+                </li>
+                <li>
+                    <span>Date Of Birth:</span>
+                    <span>January 29, 2005</span>
+                </li>
+                <li>
+                    <span>Age:</span>
+                    <span>20</span>
+                </li>
+                <li>
+                    <span>Address:</span>
+                    <span>Karachi</span>
+                </li>
+                <li>
+                    <span>Phone:</span>
+                    <span>03139909344</span>
+                </li>
+                <li>
+                    <span>Email:</span>
+                    <span>manalrazzaq0@gmail.com</span>
+                </li>
+            </ul>
+            <div class="hobbies">
+                <span>
+                    <div class="icon-circle">
+                        <a href="https://www.linkedin.com/in/manalrazzaq" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+            
+                </span>
+                <span>
+                    <div class="icon-circle">
+                        <a href="https://github.com/ManalRazzaq" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                   
+                </span>
+                <span>
+                    <div class="icon-circle">
+                        <a href="mailto:manalrazzaq0@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                   
+                </span>
+            </div>
+
+        </div>
+    </section>
+    <!-- Skilll Section -->
+    <section class="skills section" id="skills">
+        <h2 class="small">Skills</h2>
+        <h2 class="section-title">My Skills</h2>
+        <div class="skill-container">
+            <div class="skill-tabs">
+                <div class="skill-header skill-active" data-target="#frontend">
+                    <i class="uil uil-brackets-curly skill-icon"></i>
+                    <div>
+                        <h1 class="skill-tiltle">Frontend Developer</h1>
+                        <span class="skill-subtitle">Frontend student </span>
+                    </div>
+                    <i class="uil uil-angle-down skill-arrow"></i>
+
+                </div>
+          
+                <div class="skill-header" data-target="#designer">
+                    <i class="uil uil-swatchbook skill-icon"></i>
+                    <div>
+                        <h1 class="skill-tiltle">Web Designer</h1>
+                        <span class="skill-subtitle">Gain Experience</span>
+                    </div>
+                    <i class="uil uil-angle-down skill-arrow"></i>
+                </div>
+         
+           
+                <div class="skill-header" data-target="#backend">
+                    <i class="uil uil-server-network skill-icon"></i>
+                    <div>
+                        <h1 class="skill-tiltle">Backend Developer</h1>
+                        <span class="skill-subtitle">Backend student</span>
+                    </div>
+                    <i class="uil uil-angle-down skill-arrow"></i>
+                </div>
+            
+        </div>
+        <div class="skill-content">
+            <div class="skill-group skill-active" data-content id="frontend">
+                <div class="skill-list grid">
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">HTML</h3>
+                            <span class="skill-number">90%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 90%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">CSS</h3>
+                            <span class="skill-number">80%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 80%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">Javascript</h3>
+                            <span class="skill-number">50%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 50%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">Bootstarp</h3>
+                            <span class="skill-number">90%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 90%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">Tailwind Css</h3>
+                            <span class="skill-number">90%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 90%;"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-group" data-content id="designer">
+                <div class="skill-list grid">
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">HTML</h3>
+                            <span class="skill-number">80%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 80%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">CSS</h3>
+                            <span class="skill-number">90%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 80%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">Boostrap/Tailwind</h3>
+                            <span class="skill-number">50%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 50%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">PHP</h3>
+                            <span class="skill-number">70%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 50%;"></span>
+                        </div>
+                    </div>
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">MySQL</h3>
+                            <span class="skill-number">70%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 50%;"></span>
+                        </div>
+                    </div>
+                   
+                   
+                </div>
+            </div>
+
+            <div class="skill-group" data-content id="backend">
+                <div class="skill-list grid">
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">PHP</h3>
+                            <span class="skill-number">70%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 90%;"></span>
+                        </div>
+                    </div>
+
+                    <div class="skill-data">
+                        <div class="skill-title">
+                            <h3 class="skill-name">MySQL</h3>
+                            <span class="skill-number">70%</span>
+                        </div>
+
+                        <div class="skill-bars">
+                            <span class="skill-percentage" style="width: 80%;"></span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <!-- SERVICES SECTION -->
+            <section class="services-section" id="services">
+              <h2 class="small">Services</h2>
+              <h1 class="section-title">What I offer</h1>
+              <div class="myservices">
+                <div class="services">
+                    <div class="service-item">
+                      <div class="ser-icon"><i class="uil uil-brackets-curly"></i></div>
+                      <h3>Web designing</h3>
+                      <div class="underline"></div>
+                    </div>
+                   
+                    <div class="service-item">
+                      <div class="ser-icon"><i class="uil uil-web-grid"></i></div>
+                      <h3>Web development</h3>
+                      <div class="underline"></div>
+                    </div>
+                   
+                    <div class="service-item">
+                      <div class="ser-icon"><i class="uil uil-arrow"></i></div>
+                      <h3>UI/UX design</h3>
+                      <div class="underline"></div>
+                    </div>
+                    
+                  </div>
+              </div>
+            </section>
+        
+            <!-- Projects -->
+            <section class="projects-section" id="projects">
+                <h2 class="small">Projects</h2>
+                <h1 class="section-title">My Projects</h1>
+                <div class="tabs">
+                    <button class="tab active" data-category="all">All</button>
+                    <button class="tab" data-category="front">Frontend</button>
+                    <button class="tab" data-category="js">Mini projects</button>
+                    <button class="tab" data-category="web">Websites</button>
+                </div>
+               <div>
+                <div class="gallery">
+                    <div class="item" data-category="front">
+                        <img src="images/project2.png" alt="Product 1">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Frontend</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Resturant Webiste</p></div>
+
+                           
+                        </div>
+                    </div>
+                    <div class="item" data-category="front">
+                        <img src="images/minal.png" alt="Product 2">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Frontend</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Ecommerce Webiste</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="front">
+                        <img src="images/project3.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Frontend</h2></div>
+                            <div class="icon"><p class="overlay-tilte">School Webiste</p></div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="item" data-category="front">
+                        <img src="images/project4.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Frontend</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Game Webiste</p></div>
+
+                        </div>
+                    </div>
+                    <!-- JAVASCRIPT -->
+                    <div class="item" data-category="js">
+                        <img src="images/js1.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Character Counter</p></div>
+
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js2.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Age Calculator</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js3.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Calculator</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js4.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Digital Clock</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js5.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Search Images</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js6.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Crypto </p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js7.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Countdown Timer</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="js">
+                        <img src="images/js8.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Javascript Mini Projects</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Color Generator</p></div>
+                        </div>
+                    </div>
+                    <!-- WEbsites -->
+                    <div class="item" data-category="web">
+                        <img src="images/project5.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Dynamic Websites</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Sound</p></div>
+                        </div>
+                    </div>
+                    <div class="item" data-category="web">
+                        <img src="images/project6.png" alt="Product 3">
+                        <div class="overlay">
+                            <div class="icon"><h2 class="small">Dynamic Websites</h2></div>
+                            <div class="icon"><p class="overlay-tilte">Admin Panel</p></div>
+                        </div>
+                    </div>
+                </div>
+           
+                  
+         </section>
+
+         <!-- Contact -->
+<section class="contact" id="contact">
+    <h2 class="small">Contact Me</h2>
+    <h1 class="section-title">Get In Touch</h1>
+         <div class="Contact-section" id="contact">
+            <div class="picture-contact">
+                <img src="./images/about.jpeg" alt="">
+            </div>
+            <div class="content-contact">
+
+               
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter Your Name" id="name">
+                        <span id="name-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter Your Email" id="email">
+                        <span id="email-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Enter Your Phone" id="phone">
+                        <span id="phone-error"></span>
+                    </div>
+                   
+                    <div class="input-box">
+                        <textarea placeholder="Enter Your Message"   style="height: 150px" id="message"></textarea>
+                        <span id="mess-error"></span>
+                    </div>
+                    <div class="input-box">
+                        <input type="button"  onclick="validation()" class="btn" value="Send Message">
+                    </div>
+                </form>
+            
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About</h3>
+                <p>I am a web developer skilled in HTML, CSS, JavaScript, and Bootstrap, focused on creating responsive and visually appealing websites.</p>
+                <div class="social-icons">
+                    <a href="mailto:manalrazzaq0@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/manalrazzaq" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ManalRazzaq" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Web Designing</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">UI/UX Design</a></li>
+                   
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Need Help?</h3>
+                <div class="contact-info">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Sector 00, Korangi ABC Area, Karachi, Pakistan</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>+92 392 9909899</span>
+                </div>
+                <div class="contact-info">
+                    <i class="fas fa-envelope"></i>
+                    <span>manalrazzaq0@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright ©2025 All rights reserved Manal</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- VALIDATION WORK -->
+   <script>
+    let validation = () =>{
+    let myname = document.getElementById('name').value;
+    let myemail = document.getElementById('email').value;
+    let myphone = document.getElementById('phone').value;
+    let mymessage = document.getElementById('message').value;
+    // alert(`${myname}${myemail}${mymessage}`)
+
+        let namepattren = /^[a-zA-Z]{5,}$/;
+        let emailpattren = /^\w+@[a-zA-Z]{5,7}.{1}[a-zA-Z]{3,4}$/;
+        let phonepattren = /^[0-9]{11}$/;
+        let messagepattren = /^[a-zA-Z0-9 ]{5,}$/;
+
+
+
+        // ============================NAME
+if(namepattren.test(myname)){
+    document.getElementById('name-error').innerHTML = '';
+    document.getElementById('name').classList.add('class-correct');
+}else{
+    
+    document.getElementById('name-error').innerHTML = 'Please Enter Your Name';
+    document.getElementById('name-error').style.color = 'red';
+    document.getElementById('name').classList.add('mess-error');
+
+    
+}
+// ============================EMAIL
+
+if(emailpattren.test(myemail)){
+    document.getElementById('email-error').innerHTML = '';
+    document.getElementById('email').classList.add('class-correct');
+}else{
+    
+    document.getElementById('email-error').innerHTML = 'Please Enter a Valid Email';
+    document.getElementById('email-error').style.color ='red';
+    document.getElementById('email').classList.add('mess-error');
+    
+}
+
+// ============================PHONE
+
+if(phonepattren.test(myphone)){
+    document.getElementById('phone-error').innerHTML = '';
+    document.getElementById('phone').classList.add('class-correct');
+}else{
+    
+    document.getElementById('phone-error').innerHTML = 'Please Enter a Valid Phone Number';
+    document.getElementById('phone-error').style.color ='red';
+    document.getElementById('phone').classList.add('mess-error');
+    
+}
+
+// ============================MESSAGE
+
+if(messagepattren.test(mymessage)){
+    document.getElementById('mess-error').innerHTML = '';
+    document.getElementById('message').classList.add('class-correct');
+}else{
+    
+    document.getElementById('mess-error').innerHTML = 'Please Enter Your Message';
+    document.getElementById('mess-error').style.color ='red';
+    document.getElementById('message').classList.add('mess-error');
+    
+}
+  
+
+
+if(namepattren.test(myname) && emailpattren.test(myemail) && messagepattren.test(mymessage)){
+       
+ alert('ThankYou for Your Response');
+ 
+    document.getElementById('name').value = '';
+    document.getElementById('email').value = '';
+    document.getElementById('phone').value = '';
+    document.getElementById('message').value = '';
+
+
+}}
+   </script>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
